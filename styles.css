@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 37.5rem;
+    min-height: 61.2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+header,
+.section-one,
+footer {
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(190, 184, 184);
+}
+
+h1{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.logo {
+    width: 13rem;
+    height: 3.3rem;
+}
+
+.avatar {
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 50%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 2.9rem;
+    height: 2.8rem;
+}
+.social-icons img:hover{
+    opacity: 0.5;
+}
+
+.section-one-box {
+    display: flex;
+    gap: .7rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.likes-comments {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.likes,
+.comments span {
+    font-weight: bold;
+}
+
+#likeBtn:active{
+    opacity: 0.3;
+
+
+}
